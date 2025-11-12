@@ -131,7 +131,7 @@ public class Ordenar {
         System.out.println("\n--- RESULTADOS ---");
         System.out.println("Total de nomes digitados: " + totalNomes);
         
-        // Copiar array para ordenação crescente
+       
         String[] nomesOrdemCrescente = new String[totalNomes];
         for(int i = 0; i < totalNomes; i++) {
             nomesOrdemCrescente[i] = nomes[i];
